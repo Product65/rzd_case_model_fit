@@ -1,0 +1,14 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['clear_railway', 'dangerous_object', 'dangerous_railway', 'line', 'person', 'platform']
+
+roboflow:
+  workspace: academy-cvc78
+  project: hackathon-zfhu5
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/academy-cvc78/hackathon-zfhu5/dataset/3
+
